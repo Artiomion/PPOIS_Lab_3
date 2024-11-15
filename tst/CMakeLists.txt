@@ -4,7 +4,8 @@ file(GLOB_RECURSE TEST_SOURCES LIST_DIRECTORIES false *.h *.cpp)
 
 set(SOURCES ${TEST_SOURCES})
 enable_testing()
-add_executable(${BINARY} ${TEST_SOURCES})
+add_executable(${BINARY} ${TEST_SOURCES}
+        BaseEntityTest.cpp)
 
 add_test(NAME ${BINARY} COMMAND ${BINARY})
 message(STATUS "Test sources: ${TEST_SOURCES}")

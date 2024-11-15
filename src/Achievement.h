@@ -12,7 +12,7 @@ private:
     std::string description;
     bool isUnlocked;
 public:
-    Achievement(const std::string& t, const std::string& d);
+    Achievement(const std::string& title, const std::string& description);
     void unlock();
     bool isAchieved() const;
 };

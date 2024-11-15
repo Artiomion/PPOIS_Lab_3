@@ -20,5 +20,4 @@ public:
     void attack();
 };
 
-
 #endif //PPOIS_LAB_3_MONSTER_H

@@ -4,8 +4,8 @@
 
 #include "Achievement.h"
 
-Achievement::Achievement(const std::string& t, const std::string& d)
-        : title(t), description(d), isUnlocked(false) {}
+Achievement::Achievement(const std::string& title, const std::string& description)
+        : title(title), description(description), isUnlocked(false) {}
 
 void Achievement::unlock() {
     isUnlocked = true;

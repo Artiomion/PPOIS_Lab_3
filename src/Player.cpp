@@ -15,6 +15,7 @@ void Player::displayInfo() const {
 
 void Player::gainExperience(int exp) {
     experience += exp;
+    std::cout << "Experience gained: " << exp << std::endl;
 }
 
 void Player::addItem(Item* item) {

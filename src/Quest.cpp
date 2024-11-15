@@ -10,6 +10,7 @@ Quest::Quest(const std::string& t, const std::string& d, Achievement* a)
 
 void Quest::completeQuest() {
     isCompleted = true;
+    std::cout << "Quest completed: " << title << "\n";
 }
 
 void Quest::startQuest() {

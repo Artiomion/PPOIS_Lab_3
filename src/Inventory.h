@@ -21,5 +21,4 @@ public:
     void displayInventory() const;
 };
 
-
 #endif //PPOIS_LAB_3_INVENTORY_H
