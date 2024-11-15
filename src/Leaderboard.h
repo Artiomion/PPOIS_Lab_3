@@ -4,10 +4,16 @@
 
 #ifndef PPOIS_LAB_3_LEADERBOARD_H
 #define PPOIS_LAB_3_LEADERBOARD_H
-
+#include <vector>
+#include "Player.h"
 
 class Leaderboard {
-
+private:
+    std::vector<int> scores;
+    std::vector<Player*> players;
+public:
+    void addScore(int score);
+    void resetLeaderboard();
 };
 
 

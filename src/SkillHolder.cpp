@@ -3,3 +3,7 @@
 //
 
 #include "SkillHolder.h"
+
+void SkillHolder::addSkill(Skill* skill) {
+    skills.push_back(skill);
+}
